@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  tailadminpanel,
+  Untitled,
+  yt,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "PhotoShop Expert",
     icon: mobile,
   },
   {
@@ -198,67 +201,78 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Full Stack Ecommerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based platform that allows users to search, view, and order verious products, providing a convenient and efficient solution for different shop sellers.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "paypal",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Untitled,
+    source_code_link: "https://github.com/developerspack",
+    live_link: "https://developerspackshop.vercel.app/",
+  },
+  {
+    name: "Ecommerce Admin Dashboard",
+    description:
+      "Web application that enables shop owners to manage their shop, view detailed charts on how products are selling based on category, rating, brand etc.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chart.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tailadminpanel,
+    source_code_link: "https://github.com/developerspack",
+    live_link: "https://tailadminpanel.vercel.app/",
+  },
+  {
+    name: "YouTube Clone",
+    description:
+      "It's a full stack Youtube Clone, users can upload videos, subscribe, like, save videos to watch later and more youtube functionalities.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yt,
+    source_code_link: "https://github.com/developerspack",
+    live_link: "https://dpyoutube.vercel.app/",
   },
 ];
 

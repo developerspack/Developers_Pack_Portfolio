@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tailadminpanel from "./tailadminpanel.jpg";
+import Untitled from "./Untitled-1.jpg";
+import yt from "./yt.jpg";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  yt,
+  Untitled,
+  tailadminpanel,
 };
